@@ -1,5 +1,5 @@
 <div class="message">
   <p>
-    <%= message.content %>
+    <%= link_to "#{message.content}", edit_message_path(message) %>
   </p>
 </div>

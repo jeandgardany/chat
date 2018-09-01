@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @message.content %>
+</p>
+
+<%= link_to 'Editar', edit_message_path(@message) %> |
+<%= link_to 'Voltar', root_path %>
